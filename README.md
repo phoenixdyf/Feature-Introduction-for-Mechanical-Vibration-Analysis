@@ -5,7 +5,7 @@
 
 **计算公式**：
 
-\[ \text{RMS} = \sqrt{\frac{1}{N} \sum_{i=1}^{N} x_i^2} \]
+$$ \text{RMS} = \sqrt{\frac{1}{N} \sum_{i=1}^{N} x_i^2} $$
 
 其中，\(x_i\)为振动信号的样本值，\(N\)为样本数量。
 
@@ -14,7 +14,7 @@
 
 **计算公式**：
 
-\[ \text{Peak Value} = \max(|x_i|) \]
+$$ \text{Peak Value} = \max(|x_i|) $$
 
 其中，\(x_i\)为振动信号的样本值。
 
@@ -23,7 +23,7 @@
 
 **计算公式**：
 
-\[ \text{Peak-to-Peak Value} = \max(x_i) - \min(x_i) \]
+$$ \text{Peak-to-Peak Value} = \max(x_i) - \min(x_i) $$
 
 其中，\(x_i\)为振动信号的样本值。
 
@@ -32,7 +32,7 @@
 
 **计算公式**：
 
-\[ \text{PSD}(f) = \frac{|X(f)|^2}{\Delta f} \]
+$$ \text{PSD}(f) = \frac{|X(f)|^2}{\Delta f} $$
 
 其中，\(X(f)\)为信号的傅里叶变换，\(\Delta f\)为频率分辨率。
 
@@ -43,7 +43,7 @@
 
 **计算公式**：
 
-\[ \text{Kurtosis} = \frac{1}{N} \sum_{i=1}^{N} \left( \frac{x_i - \mu}{\sigma} \right)^4 \]
+$$ \text{Kurtosis} = \frac{1}{N} \sum_{i=1}^{N} \left( \frac{x_i - \mu}{\sigma} \right)^4 $$
 
 其中，\(\mu\)为均值，\(\sigma\)为标准差。
 
@@ -52,7 +52,7 @@
 
 **计算公式**：
 
-\[ \text{Crest Factor} = \frac{\text{Peak Value}}{\text{RMS}} \]
+$$ \text{Crest Factor} = \frac{\text{Peak Value}}{\text{RMS}} $$
 
 该值越高，表示信号中存在更多的冲击成分。
 
@@ -61,7 +61,7 @@
 
 **计算公式**：
 
-\[ \text{Peak Factor} = \frac{\text{Peak Value}}{\text{Mean Value}} \]
+$$ \text{Peak Factor} = \frac{\text{Peak Value}}{\text{Mean Value}} $$
 
 其中，\(\text{Mean Value}\)为信号的平均值。
 
@@ -106,7 +106,7 @@
 
 **计算公式**：
 
-\[ \text{THD} = \sqrt{\sum_{n=2}^{\infty} \left( \frac{V_n}{V_1} \right)^2} \]
+$$ \text{THD} = \sqrt{\sum_{n=2}^{\infty} \left( \frac{V_n}{V_1} \right)^2} $$
 
 其中，\(V_1\)为基频幅值，\(V_n\)为第\(n\)次谐波的幅值。
 
@@ -138,4 +138,6 @@
 **计算方法**：通过高频成分的能量计算。
 
 ### 4. 声音品质因子 (Sound Quality Index)
-**作用**：声音品质因子综合反映声音的总体品质，是评价机械设备运行状态的重要指标。声音品质因子考虑了声音的多个方面，包括响度、粗糙度和尖锐度等。机械设备运行状态良好时，声音品质因子
+**作用**：声音品质因子综合反映声音的总体品质，是评价机械设备运行状态的重要指标。声音品质因子考虑了声音的多个方面，包括响度、粗糙度和尖锐度等。机械设备运行状态良好时，声音品质因子较高，反之，设备故障时，声音品质因子会显著降低。通过监测设备运行时的声音品质因子变化，可以识别出潜在的机械故障。声音品质因子的计算通常基于多种心理声学参数的综合评估。定期监测机械设备的声音品质因子，可以帮助工程师及早发现故障，进行必要的维护，避免设备损坏和停机。
+
+**计算方法**：基于多种心理声学参数的综合评估。
