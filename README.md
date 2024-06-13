@@ -5,7 +5,10 @@
 
 **计算公式**：
 
-\[ \text{RMS} = \sqrt{\frac{1}{N} \sum_{i=1}^{N} x_i^2} \]
+$$
+\text{RMS} = \sqrt{\frac{1}{N} \sum_{i=1}^{N} x_i^2}
+$$
+
 
 其中，\(x_i\)为振动信号的样本值，\(N\)为样本数量。
 
